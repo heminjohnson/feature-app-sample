@@ -1,0 +1,109 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# testing
+/coverage
+test-report.xml
+
+# next
+/.next
+
+# certificates
+/certs/
+
+# Locals
+# /config/locales/da
+# /config/locales/de
+# /config/locales/de-AT
+# /config/locales/de-CH
+# /config/locales/el-GR
+# /config/locales/en
+# /config/locales/en-IE
+# /config/locales/en-MT
+# /config/locales/es
+# /config/locales/et-EE
+# /config/locales/fi-FI
+# /config/locales/fr
+# /config/locales/fr-BE
+# /config/locales/fr-CH
+# /config/locales/fr-LU
+# /config/locales/is-IS
+# /config/locales/it
+# /config/locales/it-CH
+# /config/locales/lt-LT
+# /config/locales/lv-LV
+# /config/locales/nl-BE
+# /config/locales/nl-NL
+# /config/locales/no
+# /config/locales/pl-PL
+# /config/locales/pt-PT
+# /config/locales/sv
+
+
+# PWA
+/static/workbox
+
+# Credentials and environments
+*.env
+*.env_sample
+*environment
+
+# IDEs and editors
+/.idea
+/.vscode
+/.history
+/.cache
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.tmp
+*.code-workspace
+
+# npm and yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.gqlconfig
+.expo
+*.log
+*.sqlite3
+*.iml
+.npmrc
+swagger.yml
+
+# CI-CD
+ci/ci_credentials.yml
+deployment.*.log
+
+# sonarqube
+.scannerwork
+
+# licence check
+**/report/**
+license-report.tgz*
+
+# Dependency size test output for analysis
+stats.json
+
+# Local Dockerfile
+Dockerfile.local
+
+node_modules
